@@ -2,7 +2,7 @@ package calculadora;
 
 public class calculadora {
 	
-	//PAra efetuar o caluculo da soma.
+	//Para efetuar o caluculo da soma.
 	public int somar(int a, int b) {
 		return a + b;
 	}
@@ -11,11 +11,11 @@ public class calculadora {
 		return a - b;
 	}
 	//Para efetuar o calculo da Multiplicação.
-	public double multiplicacao(double a, double b) {
+	public int multiplicacao(int a, int b ) {
 		return a * b;
 	}
 	//Para efetuar o calculo da divisão.
-	public double divisao(double a, double b) {
+	public  int divisao (int a,  int b) {
 		return a / b;
 	}
 	
