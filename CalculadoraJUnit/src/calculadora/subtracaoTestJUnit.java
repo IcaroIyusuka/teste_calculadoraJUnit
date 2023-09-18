@@ -9,35 +9,35 @@ import junit.framework.Assert;
 public class subtracaoTestJUnit {
 	
 	
-	@SuppressWarnings("deprecation")
-	@Test
+	@SuppressWarnings("deprecation")//Para importa e deixar funcional o assert.
+	@Test//Para importar o JUnit pack, de maneira funcional.
 	
 	public void Calculodesubtracao() {
-		//variavel da calculadora para simplificar.
+		//Criando uma instacia da calculadora, para simplificar.
 		calculadora calc = new calculadora();
 
 
 		//efetuar o calculo dos numeros inteiros dentro dos colchetes.
-		//calculo de dois valores.
-		int sub = calc.subtracao(7,3);
-		//o valor colocado junto do comando subtração, é para validar o valor, sendo assim o resultado do calculo acima é 4.
-		Assert.assertEquals(4, sub);
 		
-		//calculo de dois valores sendo um deles igual a zero.
-		sub = calc.subtracao(2, 0);
-		//o valor colocado é o resultado da subtração dos dois valores sem assim o valor de 3.
-		Assert.assertEquals(2, sub);
+		int sub = calc.subtracao(7,3);//calculo de dois valores.
+		
+		Assert.assertEquals(4, sub);//o valor colocado junto do comando sub, é para validar o valor, sendo assim o resultado do calculo acima é 4.
 		
 		
-		//Calculo de dois valores sendo os dois valores iguais.
-		sub = calc.subtracao(3, 3);
-		//o valor colocado é o resultado da subtração dos dois valores sem assim o valor de 0.
-		Assert.assertEquals(0, sub);
+		sub = calc.subtracao(2, 0);//calculo de dois valores sendo um deles igual a zero.
 		
-		//Calculo de dois valores sendo um dos valores negativo.
-		sub = calc.subtracao(5, -5);
-		//o valor colocado é o resultado da subtração sendo igual a 10.
-		Assert.assertEquals(10, sub);
+		Assert.assertEquals(2, sub);//o valor colocado junto do comando sub, é para validar o valor, sendo assim o resultado do calculo acima é 2.
+		
+		
+		
+		sub = calc.subtracao(3, 3);//Calculo de dois valores sendo os dois valores iguais.
+		
+		Assert.assertEquals(0, sub);//o valor colocado junto do comando sub, é para validar o valor, sendo assim o resultado do calculo acima é 0.
+		
+		
+		sub = calc.subtracao(5, -5);//Calculo de dois valores sendo um dos valores negativo.
+		
+		Assert.assertEquals(10, sub);//o valor colocado junto do comando sub, é para validar o valor, sendo assim o resultado do calculo acima é 10.
 		
 		
 
