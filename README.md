@@ -46,4 +46,4 @@ Os testes incluídos neste conjunto verificam a função de soma da calculadora 
 Cada teste usa a classe Assert para verificar se o resultado da soma é igual ao valor esperado.
 
 ## Contribuições
-Contribuições são bem-vindas! Se você encontrar problemas ou desejar adicionar mais testes, sinta-se à vontade para criar uma solicitação de pull.
+Contribuições são bem vindas, se quiser adicionar algo como testar para 
