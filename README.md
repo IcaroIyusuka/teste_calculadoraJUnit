@@ -22,7 +22,7 @@ Os testes incluídos neste conjunto verificam a função de soma da calculadora 
 
 1.Calculodesoma: Testa a soma de dois números inteiros positivos.
 
-(https://github.com/IcaroIyusuka/teste_calculadoraJUnit/assets/115050400/e04a8443-2c5a-4b70-a8c7-9166c6656b31)
+![Captura de Tela (5)](https://github.com/IcaroIyusuka/teste_calculadoraJUnit/assets/115050400/e04a8443-2c5a-4b70-a8c7-9166c6656b31)
 
 2.Calculosoma_exemplodeerro: Testa como reage com o erro amostra.
 
