@@ -4,7 +4,7 @@ Este é um conjunto de testes JUnit para a classe `calculadora`, foi escolhido p
 
 ## Pré-requisitos
 
-- Certifique-se de que você tenha o ambiente de desenvolvimento Java configurado corretamente.
+Certificar o ambiente JAVA esta preparado para utilizar o JUnit.
 
 ## Como executar os testes
 
