@@ -42,3 +42,6 @@ Cada teste usa a classe Assert para verificar se o resultado da soma é igual ao
 
 ## Contribuições
 Contribuições são bem vindas, se quiser adicionar algo ou usar para seus proprios testes.
+
+## Observação:
+Foi utilizado a primeira linha do calculo de teste JUnit, como tambem a ultima, nas demonstrações dos testes.
