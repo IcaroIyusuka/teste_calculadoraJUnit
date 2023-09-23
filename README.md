@@ -13,7 +13,8 @@ Abra o projeto em seu compilador.
 
 Execute os testes usando a funcionalidade do JUnit da utilize a linha de comando:
 
-"@test"
+![Captura de Tela (10)](https://github.com/IcaroIyusuka/teste_calculadoraJUnit/assets/115050400/c00919d4-f8bb-40b0-81e2-33b038618094)
+
    
 Os resultados dos testes serão exibidos na saída da execução.
 
@@ -40,4 +41,4 @@ Cada teste usa a classe Assert para verificar se o resultado da soma é igual ao
 
 
 ## Contribuições
-Contribuições são bem vindas, se quiser adicionar algo mudar 
+Contribuições são bem vindas, se quiser adicionar algo ou usar para seus proprios testes.
