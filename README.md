@@ -1,6 +1,6 @@
 # Calculadora - Testes JUnit
 
-Este é um conjunto de testes JUnit para a classe `calculadora`, foi escolhido para demonstrar essa situação que realiza operações de soma de números inteiros. Os testes têm como objetivo garantir que a função de soma da calculadora funcione corretamente para diferentes cenários.
+Este é um conjunto de testes JUnit para a classe calculadora, foi escolhido para demonstrar essa situação que realiza operações de soma de números inteiros. Os testes têm como objetivo garantir que a função de soma da calculadora funcione corretamente para diferentes cenários.
 
 ## Pré-requisitos
 
