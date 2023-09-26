@@ -33,6 +33,11 @@ public class divisaoTestJUnit {
 		div = calc.divisao(0, 2);//Calculando a divisão de dois valores, sendo o dividendo igual a zero.
 		
 		Assert.assertEquals(0 ,div);//o valor colocado junto do comando div, é para validar o valor, sendo assim o resultado do calculo acima é 0.
+
+		//No teste abaixo esta demonstrando uma situação de erro.
+		int div = calc.divisao(4, 2);//Calculando a divisao de dois valroes.
+		
+		Assert.assertEquals(3, div);//o valor colocado junto do comando div, é para validar o valor, sendo assim o valor esta invalido.
 	}
 
 }
