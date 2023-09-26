@@ -38,7 +38,11 @@ public class subtracaoTestJUnit {
 		sub = calc.subtracao(5, -5);//Calculo de dois valores sendo um dos valores negativo.
 		
 		Assert.assertEquals(10, sub);//o valor colocado junto do comando sub, é para validar o valor, sendo assim o resultado do calculo acima é 10.
+
+		//Nesse teste abaixo esta demonstando uma situação de erro.
+		 sub= calc.subtracao(3,7);//calculo de dois valores.
 		
+		Assert.assertEquals(12, sub);//o valor colocado junto do comando soma, é para validar, mas o valor esta invalido.
 		
 
 	}
