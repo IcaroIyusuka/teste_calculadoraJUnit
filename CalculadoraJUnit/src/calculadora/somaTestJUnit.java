@@ -16,7 +16,7 @@ public class somaTestJUnit {
 		//efetuar o calculo dos numeros inteiros dentro dos colchetes.
 		int soma = calc.somar(3,7);//calculo de dois valores.
 		
-		Assert.assertEquals(10, soma);//o valor colocado junto do comando soma, é para validar o valor, sendo assim o resultado do calculo acima é 10.
+		Assert.assertEquals(10, soma);//o valor colocado junto do comando soma, é para validar o valor, sendo assim o resultado do calculo é 10.
 		
 		
 		
@@ -35,6 +35,11 @@ public class somaTestJUnit {
 		 soma = calc.somar(3,-1);//calculo de dois valores sendo um deles negativo.
 		
 		 Assert.assertEquals(2, soma);//o valor colocado é o resultado da soma dos dois valores sem assim o valor de 2.
+
+		//Nesse teste abaixo esta demonstando uma situação de erro.
+		 soma = calc.somar(3,7);//calculo de dois valores.
+		
+		Assert.assertEquals(9, soma);//o valor colocado junto do comando soma, é para validar, mas o valor esta invalido.
 		
 	}
 
